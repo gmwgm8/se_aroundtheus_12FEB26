@@ -1,5 +1,5 @@
-import Card from "./card.js";
-import FormValidator from "./FormValidator.js";
+import Card from "./components/card.js";
+import FormValidator from "./components/FormValidator.js";
 
 const initialCards = [
   {
@@ -168,4 +168,5 @@ const addFormValidator = new FormValidator(
 
 editFormValidator.enableValidation();
 addFormValidator.enableValidation();
+
 
