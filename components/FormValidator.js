@@ -77,6 +77,14 @@ class FormValidator {
     }
   }
 
+  resetValidation() {
+      this._toggleButtonState(); <== toggle the submit button ==
+
+      this._inputList.forEach((inputElement) => {
+        this._hideError(inputElement) <== clear errors ==
+      });
+
+    }
   enableValidation() {
     this._form.addEventListener("submit", (evt) => {
       evt.preventDefault();
@@ -85,4 +93,5 @@ class FormValidator {
   }
 }
 export default FormValidator;
+
 
