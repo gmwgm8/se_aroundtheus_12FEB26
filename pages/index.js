@@ -166,8 +166,11 @@ const addFormValidator = new FormValidator(
   addCardFormElement
 );
 
+editFormValidator.resetValidation();
+addFormValidator.resetValidation();
 editFormValidator.enableValidation();
 addFormValidator.enableValidation();
+
 
 
 
