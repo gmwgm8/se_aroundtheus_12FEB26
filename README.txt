@@ -55,6 +55,17 @@ Refactoring and organization using Modules as opposed to using validator.js whic
 Finally, we slightly restructored our file structure getting rid of "scripts" and creating a "components" folder that would hold Card and FormValidator. The "Pages"folder now holds index.js and index.css. Again, validator.js becaume obsolete so then it was deleted. The rest of the project folder remained the same. 
 
 
+Project 8:
+
+Popup.js - Base popup class, no more manual modal functions 
+PopupWithImage.js - Image preview popup, Correct inheritance and method override
+PopupWithForm.js - Form popups (profile edit & add card), form handling with super calls
+Section.js - Card rendering utility
+UserInfo.js - User profile management
+
+Use of webpack, babel js transpiler, postcss for either connecting different files, updating js scripts or css to older syntax automatically.
+
+
 
 
 
