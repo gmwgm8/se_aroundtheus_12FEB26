@@ -1,4 +1,4 @@
-import Card from "../components/card.js";
+import Card from "../components/Card.js";
 import FormValidator from "../components/FormValidator.js";
 
 const initialCards = [
@@ -171,6 +171,7 @@ addFormValidator.enableValidation();
 
 setupEventListeners();
 initialCards.forEach((cardData) => renderCard(cardData, cardsWrap));
+
 
 
 
