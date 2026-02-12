@@ -1,9 +1,7 @@
 // Import CSS
 import "../pages/index.css";
 
-// Import images
-import logoImage from "../images/aroundtheUSwhite.svg";
-import profileImage from "../images/jacques-cousteau.jpg";
+
 // Import classes
 import Card from "../components/Card.js";
 import FormValidator from "../components/FormValidator.js";
@@ -26,6 +24,10 @@ const addNewCardButton = document.querySelector(selectors.addCardButton);
 // After DOM loads, set the images
 document.querySelector(".header__image").src = logoImage;
 document.querySelector(".profile__image").src = profileImage;
+
+// Import images
+import logoImage from "../images/aroundtheUSwhite.svg";
+import profileImage from "../images/jacques-cousteau.jpg";
 
 // Form inputs
 const nameInput = profileFormElement.querySelector(selectors.profileNameInput);
