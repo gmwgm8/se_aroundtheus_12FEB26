@@ -38,7 +38,7 @@
   bottom: calc(100% + 5px);
   left: calc(100% + 5px);
   background-color: transparent;
-  background-image: url("../src/images/CloseIcon.svg");
+  background-image: url("../images/CloseIcon.svg");
   width: 40px;
   height: 40px;
   background-size: contain;
@@ -215,4 +215,5 @@
     max-height: 299px;
   }
 }
+
 
